@@ -218,7 +218,7 @@ header nav li a {
   width: 100%;
   background-color: rgba(246, 246, 246, 1);
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 50px;
 }
 
 #adaptive .container {
@@ -236,4 +236,32 @@ header nav li a {
   line-height: 25.2px;
   font-size: 20px;
   color: rgba(46,50,53,1);
+}
+
+/* footer - f-top section */
+#f-top {
+  width: 100%;
+  background-color: rgba(246, 246, 246, 1);
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#f-top h2 {
+  width: 40%;
+  height: 50px;
+  margin: 0 auto 30px;
+  font-size: 32px;
+  background-image: url(img/stars.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+#f-top a {
+  display: inline-block;
+  background-color: rgba(37, 94, 232, 1);
+  color: white;
+  font-size: 20px;
+  padding: 14px 32px;
+  border-radius: 40px;
+  text-decoration: none;
 }
