@@ -184,3 +184,31 @@ header nav li a {
   font-size: 20px;
   color: rgba(46,50,53,1);
 }
+
+/* main - book section */
+#book {
+  width: 100%;
+  padding: 100px 0;
+}
+
+#book .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#book article {
+  display: inline-block;
+  width: 30%;
+}
+
+#book article h1 {
+  font-size: 48px;
+  color: rgba(46,50,53,1);
+  margin: 30px 0;
+}
+
+#book article p {
+  line-height: 25.2px;
+  font-size: 20px;
+  color: rgba(46,50,53,1);
+}
