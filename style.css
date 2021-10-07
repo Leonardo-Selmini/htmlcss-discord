@@ -155,3 +155,32 @@ header nav li a {
   font-size: 20px;
   color: rgba(46,50,53,1);
 }
+
+/* main - mage section */
+#mage {
+  width: 100%;
+  background-color: rgba(246, 246, 246, 1);
+  padding: 100px 0;
+}
+
+#mage .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#mage article {
+  display: inline-block;
+  width: 30%;
+}
+
+#mage article h1 {
+  font-size: 46px;
+  color: rgba(46,50,53,1);
+  margin: 30px 0;
+}
+
+#mage article p {
+  line-height: 25.2px;
+  font-size: 20px;
+  color: rgba(46,50,53,1);
+}
