@@ -69,11 +69,11 @@ header nav li a {
   text-decoration: none;
 }
 
-#login-c {
+.login-c {
   display: inline-block;
 }
 
-#login-c a{
+.login-c a{
   background-color: white;
   color: rgba(46,50,53,1);
   font-size: 14px;
@@ -264,4 +264,81 @@ header nav li a {
   padding: 14px 32px;
   border-radius: 40px;
   text-decoration: none;
+}
+
+/* footer - f-bottom section */
+#f-bottom {
+  width: 100%;
+  background-color: rgba(35,39,42,1);
+  padding: 60px 0;
+}
+
+#f-bottom .container {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(37, 94, 232, 1);
+}
+
+#f-bottom .container div.left {
+  width: 30%;
+}
+
+#f-bottom h2 {
+  font-size: 32px;
+  color: rgba(37, 94, 232, 1);
+}
+
+#language {
+  height: 30px;
+  line-height: 30px;
+  margin: 10px 0;
+  color: white;
+}
+
+#language img {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#social i {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+
+#f-bottom .container ul {
+  width: calc(70% / 4);
+}
+
+#f-bottom .container ul li {
+  font-size: 14px;
+  list-style: none;
+  line-height: 30px;
+  color: white;
+}
+
+#f-bottom ul li:first-child {
+  color: rgba(37, 94, 232, 1);
+}
+
+#container-b {
+  width: 80%;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+}
+
+#container-b img {
+  vertical-align: middle;
+}
+
+.logo-f {
+  line-height: 60px;
+} 
+
+#container-b a {
+  background-color: rgba(37, 94, 232, 1);
+  color: white;
 }
