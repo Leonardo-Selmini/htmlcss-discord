@@ -212,3 +212,28 @@ header nav li a {
   font-size: 20px;
   color: rgba(46,50,53,1);
 }
+
+/* main - adaptive section */
+#adaptive {
+  width: 100%;
+  background-color: rgba(246, 246, 246, 1);
+  text-align: center;
+  padding: 100px 0;
+}
+
+#adaptive .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#adaptive .container h1 {
+  font-size: 46px;
+  color: rgba(46,50,53,1);
+  margin-bottom: 30px;
+}
+
+#adaptive .container p {
+  line-height: 25.2px;
+  font-size: 20px;
+  color: rgba(46,50,53,1);
+}
